@@ -1,4 +1,4 @@
-# Lane C — Cinematic footage via Agnes AI (US$0)
+# Lane C — CARCKHÉtic footage via Agnes AI (US$0)
 
 Lane C is Lane B's exact contract (storyboard → chain → junction-gate → assemble →
 canvas scrub build), swapped onto **Agnes AI** as the engine. It exists alongside Lane

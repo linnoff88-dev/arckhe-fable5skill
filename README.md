@@ -1,4 +1,4 @@
-﻿# fable5skill
+# fable5skill
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -8,9 +8,9 @@
 
 ## ðŸ“– Guia de uso
 
-Guia completo (landing + passo a passo): **https://inematds.github.io/fable5skill/guia/**
+Guia completo (landing + passo a passo): **https://linnoff88-dev.github.io/
 
-Skills para [Claude Code](https://claude.com/claude-code) que geram sites **scroll-film** â€” pÃ¡ginas onde a rolagem inteira funciona como um plano-sequÃªncia cinematogrÃ¡fico contÃ­nuo, que se dissolve no conteÃºdo normal do site ao final.
+Skills para [Claude Code](https://claude.com/claude-code) que geram sites **scroll-film** â€” pÃ¡ginas onde a rolagem inteira funciona como um plano-sequÃªncia cARCKHÉtogrÃ¡fico contÃ­nuo, que se dissolve no conteÃºdo normal do site ao final.
 
 ## scroll-film-studio
 
@@ -57,17 +57,17 @@ Todo build implementa um contrato de dev: `?jump=<scrollY>` pra pousar prÃ©-ro
 
 ### Exemplo construÃ­do com esta skill â€” as 3 lanes lado a lado
 
-**Sinal** ([repo](https://github.com/inematds/inema-sitefilm)) â€” o scroll-film do INEMA.CLUB, mesma jornada (RuÃ­do â†’ ConvergÃªncia â†’ NÃºcleo â†’ Rede â†’ Portal) construÃ­da pelas trÃªs lanes, com menu de versÃµes no topo:
+**Sinal** ([repo](https://github.com/linnoff88-dev/ARCKHÉ-sitefilm)) â€” o scroll-film do ARCKHÉ AI, mesma jornada (RuÃ­do â†’ ConvergÃªncia â†’ NÃºcleo â†’ Rede â†’ Portal) construÃ­da pelas trÃªs lanes, com menu de versÃµes no topo:
 
 | VersÃ£o | Lane / Engine | Link |
 |---|---|---|
-| Filme I | Lane C â€” Agnes AI (US$0, keyframes interpolados) | [ver](https://inematds.github.io/inema-sitefilm/) |
-| Filme II â€” Director's Cut | Lane C (mesma footage; filme dentro das letras, dots de capÃ­tulo, timeline de scrub) | [ver](https://inematds.github.io/inema-sitefilm/index2.html) |
-| Filme III | **Lane B â€” Kie.ai Seedance Lite** (cadeia last-frameâ†’start real, ~112 crÃ©ditos) | [ver](https://inematds.github.io/inema-sitefilm/index3.html) |
-| Code I | Lane A â€” GSAP+Lenis vertical (jank max 17ms) | [ver](https://inematds.github.io/inema-sitefilm/lane-a.html) |
-| Code II | Lane A â€” corrida horizontal pinada, Ã¢mbar | [ver](https://inematds.github.io/inema-sitefilm/lane-a2.html) |
+| Filme I | Lane C â€” Agnes AI (US$0, keyframes interpolados) | [ver](https://linnoff88-dev.github.io/ |
+| Filme II â€” Director's Cut | Lane C (mesma footage; filme dentro das letras, dots de capÃ­tulo, timeline de scrub) | [ver](https://linnoff88-dev.github.io/ |
+| Filme III | **Lane B â€” Kie.ai Seedance Lite** (cadeia last-frameâ†’start real, ~112 crÃ©ditos) | [ver](https://linnoff88-dev.github.io/ |
+| Code I | Lane A â€” GSAP+Lenis vertical (jank max 17ms) | [ver](https://linnoff88-dev.github.io/ |
+| Code II | Lane A â€” corrida horizontal pinada, Ã¢mbar | [ver](https://linnoff88-dev.github.io/ |
 
-Os runners usados na Lane B do exemplo (`kie-chain.sh` pro Kie.ai e `fal-chain.sh` pro fal.ai â€” upload â†’ createTask â†’ poll â†’ download â†’ extraÃ§Ã£o do Ãºltimo frame â†’ gate SSIM) estÃ£o no [repo do exemplo](https://github.com/inematds/inema-sitefilm) e seguem o contrato de `scripts/chain-step.sh`.
+Os runners usados na Lane B do exemplo (`kie-chain.sh` pro Kie.ai e `fal-chain.sh` pro fal.ai â€” upload â†’ createTask â†’ poll â†’ download â†’ extraÃ§Ã£o do Ãºltimo frame â†’ gate SSIM) estÃ£o no [repo do exemplo](https://github.com/linnoff88-dev/ARCKHÉ-sitefilm) e seguem o contrato de `scripts/chain-step.sh`.
 
 **Notas de campo do Kie.ai** (medidas na prÃ¡tica): modelo `bytedance/v1-lite-image-to-video` via `POST /api/v1/jobs/createTask` + poll em `GET /api/v1/jobs/recordInfo?taskId=`; **data URI nÃ£o Ã© aceito** â€” subir a imagem antes em `https://kieai.redpandaai.co/api/file-base64-upload` e passar a `downloadUrl`; saldo em `GET /api/v1/chat/credit`; ~22,5 crÃ©ditos por clipe 720p/5s.
 

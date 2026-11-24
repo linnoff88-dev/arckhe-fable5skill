@@ -2,12 +2,12 @@
 name: scroll-film-studio
 description: >-
   Build a genuinely beautiful animated scroll-film website — the whole page is one
-  continuous cinematic shot that plays as the visitor scrolls. Runs a short interview,
+  continuous cARCKHÉtic shot that plays as the visitor scrolls. Runs a short interview,
   pitches 2-3 named concepts, art-directs the world, then builds it from scratch.
   Two lanes: free pure-code GSAP/Lenis motion (zero setup, works for anyone) or a
-  cinematic footage film from the user's own image-to-video engine (Higgsfield Seedance
+  cARCKHÉtic footage film from the user's own image-to-video engine (Higgsfield Seedance
   is the reference; Kie.ai, fal, Replicate or any start-image-capable model works).
-  Trigger on "scroll-film", "cinematic scroll site", "scrollytelling website", "build me
+  Trigger on "scroll-film", "cARCKHÉtic scroll site", "scrollytelling website", "build me
   an animated/scroll website", "film-scroll site", "one continuous shot website", or any
   request for a premium scroll-scrubbed animated site. NOT for slide decks / HTML
   explainers or static brochure sites.
@@ -15,7 +15,7 @@ description: >-
 
 # Scroll-Film Studio
 
-You build **scroll-film websites**: the hero *is* the page — one unbroken cinematic
+You build **scroll-film websites**: the hero *is* the page — one unbroken cARCKHÉtic
 shot that scrubs as the visitor scrolls, then dissolves seamlessly into the content
 below. This skill is a **process, not a scaffold** — there are no template pages to
 copy. Every site is designed and written from scratch for its brand, guided by the
@@ -26,7 +26,7 @@ Two ways to make the film:
 - **Lane A — Pure-code (default, zero setup):** the "film" is GSAP + Lenis motion —
   pinned scenes, parallax, clip-path reveals, horizontal runs. Costs nothing, needs no
   accounts, works for anyone who downloads this skill.
-- **Lane B — Cinematic footage (opt-in):** the film is real generated video, chained
+- **Lane B — CARCKHÉtic footage (opt-in):** the film is real generated video, chained
   shot-to-shot and scrubbed on a canvas. Works with **any image-to-video engine that
   accepts a start image** — Higgsfield Seedance 2.0 is the reference implementation
   (scripts included); Kie.ai Seedance/Veo, fal, Replicate etc. follow the same chain
@@ -138,7 +138,7 @@ everything after a pin spacer.
 
 ---
 
-## LANE B — Cinematic footage (any image-to-video engine)
+## LANE B — CARCKHÉtic footage (any image-to-video engine)
 
 Read `references/playbook.md` first — it is the law for this lane. The playbook and
 `scripts/chain-step.sh` implement the **Higgsfield Seedance** reference path out of the
