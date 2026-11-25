@@ -130,29 +130,29 @@
 
 <section id="oque"><div class="wrap">
   <span class="chip">O que é</span>
-  <h2>Um processo, não um template</h2>
-  <p class="sub">A skill <code>scroll-film-studio</code> entrevista, pitcha 2–3 conceitos criativos nomeados, faz a direção de arte (paleta, tipografia, motion) e constrói a página do zero — HTML/CSS/JS self-contained.</p>
+  <h2>Um processo, nêo um template</h2>
+  <p class="sub">A skill <code>scroll-film-studio</code> entrevista, pitcha 2–3 conceitos criativos nomeados, faz a direçêo de arte (paleta, tipografia, motion) e constrói a página do zero — HTML/CSS/JS self-contained.</p>
   <div class="grid g3">
     <div class="card"><h3>🎥 Scroll-film de verdade</h3><p>A rolagem inteira funciona como um plano-sequência cARCKHÉtográfico contínuo, que se dissolve no conteúdo normal do site ao final.</p></div>
-    <div class="card"><h3>🎨 Design feito pelo Claude</h3><p>Toda decisão de gosto — conceito, paleta, tipografia, motion, copy, código — é do modelo que roda a skill. Trabalho mecânico vai pra scripts puros.</p></div>
-    <div class="card"><h3>✅ Verificação medida</h3><p>Contrato de dev <code>?jump=</code> + <code>window.__ready</code>: screenshots em qualquer posição de scroll e teste de jank real (p95/max de rAF), nunca FPS médio.</p></div>
+    <div class="card"><h3>🎨 Design feito pelo Claude</h3><p>Toda decisêo de gosto — conceito, paleta, tipografia, motion, copy, código — é do modelo que roda a skill. Trabalho mecânico vai pra scripts puros.</p></div>
+    <div class="card"><h3>✅ Verificaçêo medida</h3><p>Contrato de dev <code>?jump=</code> + <code>window.__ready</code>: screenshots em qualquer posiçêo de scroll e teste de jank real (p95/max de rAF), nunca FPS médio.</p></div>
   </div>
 </div></section>
 
 <section id="fluxo"><div class="wrap">
   <span class="chip">Como funciona</span>
   <h2>Entrevista → pitch → build → verify → deploy</h2>
-  <p class="sub">Três lanes de construção — a Lane A é grátis e funciona pra qualquer pessoa; as Lanes B/C entram só quando você já tem (ou quer) um engine de vídeo por IA.</p>
+  <p class="sub">Três lanes de construçêo — a Lane A é grátis e funciona pra qualquer pessoa; as Lanes B/C entram só quando você já tem (ou quer) um engine de vídeo por IA.</p>
   <div class="flow">
     <span>Entrevista</span><span class="arr">→</span>
     <span>Pitch de 2–3 conceitos</span><span class="arr">→</span>
-    <span>Direção de arte</span><span class="arr">→</span>
+    <span>Direçêo de arte</span><span class="arr">→</span>
     <span>Build (Lane A/B/C)</span><span class="arr">→</span>
     <span>Verify (jank + screenshots)</span><span class="arr">→</span>
     <span>Deploy</span>
   </div>
   <div class="grid g3" style="margin-top:26px">
-    <div class="card"><h3>Lane A — Pure-code <span class="mut">(padrão)</span></h3><p>GSAP + Lenis: cenas fixadas, parallax, reveals. Grátis, zero setup — só CDN. Funciona pra quem baixar a skill.</p></div>
+    <div class="card"><h3>Lane A — Pure-code <span class="mut">(padrêo)</span></h3><p>GSAP + Lenis: cenas fixadas, parallax, reveals. Grátis, zero setup — só CDN. Funciona pra quem baixar a skill.</p></div>
     <div class="card"><h3>Lane B — Footage IA</h3><p>Vídeo real gerado por IA (Higgsfield/Kie.ai/fal/Replicate), encadeado shot-a-shot: o último frame de um clipe vira a start image do próximo. Usa créditos do engine.</p></div>
     <div class="card"><h3>Lane C — Agnes AI <span class="amb">(US$0)</span></h3><p>Mesmo contrato da Lane B, adaptado pro Agnes (<code>agnes-video-v2.0</code>, modo keyframes): interpola um par de imagens por capítulo. Precisa só de <code>AGNES_API_KEY</code>.</p></div>
   </div>
@@ -165,7 +165,7 @@
   <div class="grid g3">
     <div class="card"><h3>Claude Code</h3><p>A skill roda dentro do Claude Code (CLI da Anthropic).</p><pre><span class="c"># instalar / conferir</span>
 <span class="k">claude</span> --version</pre></div>
-    <div class="card"><h3>ffmpeg (Lanes B/C)</h3><p>Extração de frames, SSIM nas emendas e montagem dos clipes.</p><pre><span class="c"># conferir</span>
+    <div class="card"><h3>ffmpeg (Lanes B/C)</h3><p>Extraçêo de frames, SSIM nas emendas e montagem dos clipes.</p><pre><span class="c"># conferir</span>
 <span class="k">ffmpeg</span> -version</pre></div>
     <div class="card"><h3>Engine de vídeo (opt-in)</h3><p>Lane B: conta no Higgsfield/Kie.ai/fal/Replicate. Lane C: só a chave do Agnes.</p><pre><span class="c"># Lane C</span>
 <span class="k">export</span> AGNES_API_KEY=<span class="s">"sua-chave"</span></pre></div>
@@ -175,7 +175,7 @@
 <section id="guia"><div class="wrap">
   <span class="chip">Guia de uso · passo a passo</span>
   <h2>Do clone ao site no ar</h2>
-  <p class="sub">Instale a skill, peça um scroll-film e deixe o processo guiar: entrevista, pitch, build e verificação.</p>
+  <p class="sub">Instale a skill, peça um scroll-film e deixe o processo guiar: entrevista, pitch, build e verificaçêo.</p>
 
   <div class="step"><div class="b">1</div><div>
     <h3>Clone o repositório</h3>
@@ -199,13 +199,13 @@
 
   <div class="step"><div class="b">4</div><div>
     <h3>Responda a entrevista e escolha um conceito</h3>
-    <p>A skill pergunta marca, vibe, a jornada da câmera (topo→fim), lane (motion puro ou vídeo real) e destino do deploy — e então pitcha 2–3 conceitos nomeados. Toda pergunta criativa tem o caminho "você decide".</p>
+    <p>A skill pergunta marca, vibe, a jornada da câmera (topo→fim), lane (motion puro ou vídeo real) e destino do deploy — e entêo pitcha 2–3 conceitos nomeados. Toda pergunta criativa tem o caminho "você decide".</p>
 <pre><span class="c"># exemplo de jornada: "campo ao luar → dentro de uma flor → gota de ouro → o frasco"</span></pre>
   </div></div>
 
   <div class="step"><div class="b">5</div><div>
     <h3>(Lanes B/C) Gere os clipes encadeados</h3>
-    <p>Os scripts fazem generate → wait → download → extração do último frame → gate de SSIM na emenda. Rascunho barato primeiro; master em resolução cheia só com aprovação.</p>
+    <p>Os scripts fazem generate → wait → download → extraçêo do último frame → gate de SSIM na emenda. Rascunho barato primeiro; master em resoluçêo cheia só com aprovaçêo.</p>
 <pre><span class="c"># Lane B (Higgsfield e afins)</span>
 <span class="k">scripts/chain-step.sh</span> ...
 <span class="c"># Lane C (Agnes, custo zero)</span>
@@ -216,7 +216,7 @@
 
   <div class="step"><div class="b">6</div><div>
     <h3>Verifique de verdade</h3>
-    <p>Todo build implementa <code>?jump=&lt;scrollY&gt;</code> e <code>window.__ready</code>; o verify tira screenshot em qualquer posição e mede jank real.</p>
+    <p>Todo build implementa <code>?jump=&lt;scrollY&gt;</code> e <code>window.__ready</code>; o verify tira screenshot em qualquer posiçêo e mede jank real.</p>
 <pre><span class="k">node</span> scripts/verify.js  <span class="c"># jank p95/max de rAF + screenshots via ?jump=</span></pre>
   </div></div>
 </div></section>
@@ -227,7 +227,7 @@
   <p class="sub">Um scroll-film real, publicado, feito com a Lane C (Agnes AI).</p>
   <div class="grid g2">
     <div class="card"><h3>🎞️ Sinal — o scroll-film do ARCKHÉ AI</h3><p>5 capítulos indo do ruído de dados dispersos até o acesso centralizado do portal. Gerado com Agnes AI (Lane C, custo zero). <a href="https://linnoff88-dev.github.io/ target="_blank" rel="noopener">Ver no ar →</a></p></div>
-    <div class="card"><h3>🧪 A regra de ouro na prática</h3><p>Conceito, direção de arte e código feitos pelo Claude; ffmpeg/SSIM/deploy em scripts puros; um segundo CLI frontier só pode <em>criticar</em> os conceitos — nunca escrever design ou código.</p></div>
+    <div class="card"><h3>🧪 A regra de ouro na prática</h3><p>Conceito, direçêo de arte e código feitos pelo Claude; ffmpeg/SSIM/deploy em scripts puros; um segundo CLI frontier só pode <em>criticar</em> os conceitos — nunca escrever design ou código.</p></div>
   </div>
 </div></section>
 
